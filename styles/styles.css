@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: rgb(91, 106, 126);
+}
+
+
+main {
+  height: 600px;
+}
+
+nav {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+nav > div {
+  display: flex;
+}
+
+nav img {
+  margin-right: 90px;
+}
+
+nav button {
+  border-radius: 10%;
+  max-height: 35px;
+  margin-top: 5px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  max-width: 35%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 450px;
+}
+
+header h1 {
+  letter-spacing: 3px;
+}
+
+
+.video {
+ display: block;
+ margin-top: 80px;
+}
+
+.bottom-span {
+  margin-top: 200px;
+  display: block;
+  color: gray;
+}
+
+.second {
+  background-color: white;
+  max-width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  height: 200px;
+}
+
+.wrapper-2 {
+  background-color: rgb(214,	218,	221);
+  height: 500px;
+}
+
+
+.wrapper-2 > div {
+  display: flex;
+  max-width: 40%;
+  margin: 0 auto;
+  justify-content: space-between ;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.wrapper-2 button {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-color: gray;
+}
+
+.right-side button {
+  padding: 10px 35px
+}
+
+
+.wrapper-3 {
+  background-color: white;
+  text-align: center;
+  max-width: 35%;
+  margin: 0 auto;
+  height: 400px;
+  padding-top: 100px;
+}
+
+.wrapper-3 h3 {
+  font-size: 1.5rem;
+}
+
+.wrapper-3 button {
+  padding: 10px 15px;
+  background-color: transparent;
+}
+
+
+
+
+
